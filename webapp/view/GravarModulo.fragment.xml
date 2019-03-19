@@ -1,0 +1,25 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core">
+   <Dialog
+		id="GravarModuloDialog"
+		title="Gravar Módulo"
+		class="sapUiSmallMargin">
+   	
+   		<VBox id="vBoxModulo" class="sapUiSmallMargin">	
+			<Label text="Código:" labelFor="codigo"/>
+			<Input value="{Codigo}" id="codigo" required="true"/>
+			
+			<Label text="Nome:" labelFor="nome"/>
+			<Input value="{Nome}" id="nome" required="true"/>
+			
+			<Label text="Descrição:" labelFor="codigo"/>
+			<Input value="{Descricao}" id="descricao" required="true"/>
+		</VBox>
+   		
+   		<buttons>
+   			<Button text="Salvar" press="onSaveDialog"/>
+   			<Button text="Fechar" press="onCloseDialog"/>
+   		</buttons>
+   </Dialog>
+</core:FragmentDefinition>
