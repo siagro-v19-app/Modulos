@@ -3,7 +3,7 @@
    xmlns:core="sap.ui.core">
    <Dialog
 		id="GravarModuloDialog"
-		title="Gravar Módulo"
+		title="{view>/titulo}"
 		class="sapUiSmallMargin">
    	
    		<VBox id="vBoxModulo" class="sapUiSmallMargin">	
