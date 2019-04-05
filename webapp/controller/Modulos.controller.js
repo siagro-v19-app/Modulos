@@ -37,7 +37,8 @@ sap.ui.define([
 					"Id": 0,
 					"Codigo": "",
 					"Nome": "",
-					"Descricao": ""
+					"Descricao": "",
+					"Icone": ""
 				}
 			});
 			

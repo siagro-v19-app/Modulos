@@ -6,7 +6,7 @@
 		title="{view>/titulo}"
 		class="sapUiSmallMargin">
    	
-   		<VBox id="vBoxModulo" class="sapUiSmallMargin">	
+   		<VBox id="vBoxModulo" class="sapUiSmallMargin sapUiSizeCompact">	
 			<Label text="Código:" labelFor="codigo"/>
 			<Input value="{Codigo}" id="codigo" required="true"/>
 			
@@ -15,6 +15,9 @@
 			
 			<Label text="Descrição:" labelFor="codigo"/>
 			<Input value="{Descricao}" id="descricao" required="true"/>
+			
+			<Label text="Ícone:" labelFor="icone"/>
+			<Input value="{Icone}" id="icone" />
 		</VBox>
    		
    		<buttons>
