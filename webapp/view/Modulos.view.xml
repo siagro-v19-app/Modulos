@@ -8,8 +8,9 @@
 		<pages>
 			<Page showHeader="false">
 				<content>
-					<Panel headerText="Módulo">
-						<VBox class="sapUiSmallMargin">
+					
+					<VBox class="sapUiSmallMargin">
+						<Panel headerText="Módulo">
 							<t:Table id="tableModulo"
 								rows="{path: '/Modulos'}"
 								selectionMode="Single"
@@ -54,8 +55,8 @@
 									</Toolbar>
 								</t:footer>
 							</t:Table>
-						</VBox>
-					</Panel>
+						</Panel>
+					</VBox>
 				</content>
 				<footer>
 					<Toolbar>
