@@ -13,7 +13,7 @@ sap.ui.define([
 		
 		filtraModulo: function(oEvent){
 			var sQuery = oEvent.getParameter("query");
-			var oFilter = new Filter("Descricao", FilterOperator.Contains, sQuery);
+			var oFilter = new Filter("Descricao", FilterOperator.contains, sQuery);
 			
 			var aFilters = [
 				oFilter
